@@ -1,0 +1,12 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="AvaloniaApplication2.App"
+             xmlns:themes="clr-namespace:Material.Styles.Themes;assembly=Material.Styles"
+             RequestedThemeVariant="Default">
+  
+    <Application.Styles>
+        <FluentTheme />
+        <themes:MaterialTheme PrimaryColor="Purple" SecondaryColor="Lime" />
+        <StyleInclude Source="avares://AvaloniaApplication2/Styles1.axaml" />
+    </Application.Styles>
+</Application>

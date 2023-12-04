@@ -1,0 +1,11 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:Material.Styles.Controls;assembly=Material.Styles"
+        xmlns:assists="clr-namespace:Material.Styles.Assists;assembly=Material.Styles">
+    
+    <Style Selector="controls|Card">
+        <Setter Property="BorderBrush" Value="{DynamicResource MaterialBodyBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="assists:ShadowAssist.ShadowDepth" Value="Depth4" />
+    </Style>
+</Styles>
